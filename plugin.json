@@ -1,0 +1,18 @@
+{
+  "id": "volumeMixer",
+  "name": "Volume Mixer",
+  "capabilities": ["dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/EDUnter/dms-volume-mixer",
+  "author": "EDUnter",
+  "description": "System and app volume control mixer",
+  "dependencies": [],
+  "compositors": ["niri"],
+  "distro": ["any"],
+  "screenshot": "https://github.com/EDUnter/dms-volume-mixer/blob/main/assets/screenshot.png",
+  "version": "0.1.0",
+  "icon": "tune",
+  "type": "widget",
+  "component": "./VolumeMixerWidget.qml",
+  "permissions": ["settings_read", "settings_write"]
+}
